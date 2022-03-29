@@ -1,0 +1,17 @@
+{
+        https_port 10001
+        http_port 60444
+        admin 0.0.0.0:2019
+        servers :10001 {
+                protocol {
+                        allow_h2c
+                }
+        }
+}
+
+example.com {
+        tls {$FLEXHTTP}/server/cert/cert.pem {$FLEXHTTP}/server/cert/key.pem
+        root * {$FLEXHTTP}/server
+        file_server
+}
+
