@@ -2,7 +2,7 @@
 case $1 in
     install)
         echo "install"
-        cd "${FLEXHTTP}/init"
+        cd "init"
         bash "install.sh"
         echo "install done"
         ;;

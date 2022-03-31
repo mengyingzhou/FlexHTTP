@@ -16,7 +16,7 @@ Emulab provides the Python API to create the network topo. You can click `Experi
 **This initiation script will change the environment setting. We don't recommend trying our FlexHTTP prototype on your own personal PC.**
 
 ```shell
-bash init/install.sh
+bash cli.sh install
 ```
 Although Emulab can sync data in your home folder, you still should run this command on each VM.
 
