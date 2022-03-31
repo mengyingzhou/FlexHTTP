@@ -15,6 +15,7 @@ Emulab provides the Python API to create the network topo. You can click `Experi
 # 3. Dependencies Installation 
 **This initiation script will change the environment setting. We don't recommend trying our FlexHTTP prototype on your own personal PC.**
 
+We need to add some environment variables. We recommend switching to the `bash` shell and then executing the following commands under the bash shell.
 ```shell
 bash cli.sh install
 ```
