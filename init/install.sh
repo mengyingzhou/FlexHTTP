@@ -61,7 +61,7 @@ sudo cp -frp node/share/* /usr/share/
 
 # chrome-har-capturer
 sudo apt-get -y install npm 
-sudo chown -R 35380:9158 "$HOME/.npm"
+sudo chown -R $(whoami) "$HOME/.npm"
 cd $FLEXHTTP/client
 if [ ! -d "node_modules" ]; then
     npm install
