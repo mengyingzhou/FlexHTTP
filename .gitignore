@@ -15,4 +15,3 @@ __pycache__
 catboost_info
 
 !/server/cert/*
-server/cert/rootCA-key.pem

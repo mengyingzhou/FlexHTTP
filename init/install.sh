@@ -3,14 +3,6 @@ echo "export FLEXHTTP=${HOME}/FlexHTTP" >> ~/.bashrc
 echo "export SERVERIP=10.10.0.1" >> ~/.bashrc
 echo "export AGENTIP=10.20.0.3" >> ~/.bashrc
 source ~/.bashrc
-echo "export FLEXHTTP=${HOME}/FlexHTTP" >> ~/.zshrc
-echo "export SERVERIP=10.10.0.1" >> ~/.zshrc
-echo "export AGENTIP=10.20.0.3" >> ~/.zshrc
-zsh -c "source ~/.zshrc"
-echo "export FLEXHTTP=${HOME}/FlexHTTP" >> ~/.cshrc
-echo "export SERVERIP=10.10.0.1" >> ~/.cshrc
-echo "export AGENTIP=10.20.0.3" >> ~/.cshrc
-csh -c "source ~/.cshrc"
 
 # Python 3.6
 sudo add-apt-repository -y ppa:deadsnakes/ppa 
