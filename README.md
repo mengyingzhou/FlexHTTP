@@ -36,7 +36,7 @@ We write the environment variables with bash shell. If you use other terminal sh
 # 4. How to run
 
 ## 4.1. Machine Types
-- server: the server hosting the corresponding crawled Alexa Top250 webpage. H2 and H3 services are opened at 10001 and 10002 ports, respectively.
+- server: the server hosting the corresponding crawled Alexa Top500 webpage. H2 and H3 services are opened at 10001 and 10002 ports, respectively.
 - agent: the middleware of FlexHTTP 
 - client: the user client
 
@@ -46,11 +46,11 @@ We write the environment variables with bash shell. If you use other terminal sh
 bash cli.sh server
 ```
 
-We don't provide the crawled Alex Top240 web pages since it's huge. But you still can use the test alexa_top240 folder to verify the server function, and click [here](https://doi.org/10.5281/zenodo.6378149) to download the full pages.
+We don't provide the crawled Alex Top500 web pages since it's huge. Pls click [here](https://doi.org/10.5281/zenodo.13739376) to download the full pages.
 
 After downloading all pages, you should
 ```
-cp -r alexa_top240 ${FLEXHTTP}/server
+cp -r alexa_top ${FLEXHTTP}/server
 ```
 
 In the Caddy configuration file, we use `example.com` as the test domain. If you want to test FlexHTTP with your own domain, you should apply for the validation SSL certification from trusted CAs or make Chrome trust your own-made SSL certification with [mkcert](https://github.com/FiloSottile/mkcert).

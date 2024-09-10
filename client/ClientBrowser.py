@@ -148,9 +148,9 @@ class SeleniumBrowser(ClientBrowser):
 
     def send_request(self, domain, link, protocol, server_num=0, with_performance_timing=False):
         self.http2_url_header = "https://{}example.com:".format(self.server_dict[server_num]) + \
-            str(self.http2_port) + "/alexa_top240/"
+            str(self.http2_port) + "/alexa_top/"
         self.quic_url_header = "https://{}example.com:".format(self.server_dict[server_num]) + \
-            str(self.quic_port) + "/alexa_top240/"
+            str(self.quic_port) + "/alexa_top/"
 
         if protocol == 'quic':
             url = self.quic_url_header + domain + '/' + link
