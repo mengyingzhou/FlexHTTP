@@ -1,0 +1,17 @@
+{
+        https_port 10002
+        http_port 60445
+        admin 0.0.0.0:2020
+        servers :10002 {
+                protocol {
+                        experimental_http3
+                }
+        }
+}
+
+example.com {
+        tls {$FLEXHTTP}/server/cert/cert.pem {$FLEXHTTP}/server/cert/key.pem
+        root * {$FLEXHTTP}/server
+        file_server
+}
+

@@ -1,0 +1,14 @@
+{
+  "name": "flexhttp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chrome-har-capturer": "latest",
+    "commander": "latest",
+    "lighthouse": "^9.3.1"
+  }
+}
