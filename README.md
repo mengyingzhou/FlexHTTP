@@ -2,7 +2,7 @@
 FlexHTTP is an intelligent and scalable HTTP version selection system. FlexHTTP embeds a supervised machine learning-based classifier to select the appropriate HTTP version according to network conditions and page structures. FlexHTTP adopts a set of distributed agent servers to ensure scalability and keep the classifier up-to-date with the dynamic network. 
 
 
-> Mengying Zhou, Zheng Li, Qiang Duan, Shihan Lin, Yupeng Li, Xin Wang, and Yang Chen. "FlexHTTP: Making HTTP Protocol Intelligent and Scalable". Submitted to IEEE Transactions on Network and Service Management
+> Mengying Zhou, Zheng Li, Qiang Duan, Shihan Lin, Yupeng Li, Xin Wang, and Yang Chen. "FlexHTTP: Making HTTP Protocol Intelligent and Scalable In Multi-Protocol Environment". Submitted to ACM Transactions on the Web (TWEB)
 
 > A preliminary version of this paper has been published in EuroMLsys'22. [Link](https://doi.org/10.1145/3517207.3526972)
 
